@@ -1,0 +1,11 @@
+@import "../../../../style.scss";
+.spotify-button {
+  background: #1AC757;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 30px;
+  &:hover {
+    background-color: $color-neon;
+    color: black;
+  }
+}

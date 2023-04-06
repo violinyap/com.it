@@ -1,0 +1,39 @@
+@import '../../style.scss';
+
+.Onboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  color: white;
+  min-height: calc(100vh - 60px);
+
+  &__title {
+    margin: 40px;
+  }
+  &__stepper{
+    margin-bottom: 40px;
+    border: 0.5px solid #E2E2E2;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  &__complete {
+    text-align: center;
+    height: calc(100vh - 150px);
+    &__img {
+      height: 150px;
+      object-fit: contain;
+    }
+  }
+}
+
+.input-field {
+  background: #242426;
+  border: 1px solid rgba(127, 183, 190, 0.6);
+  border-radius: 8px;
+  &-standard {
+    width: 350px !important;
+  }
+
+}
+

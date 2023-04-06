@@ -1,0 +1,20 @@
+@import '../../../../style.scss';
+
+.JournalQuestionsPage {
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15vw;
+
+  .primaryButton {
+    width: 320px;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+    &-selected {
+    }
+  }
+}

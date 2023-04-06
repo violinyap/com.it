@@ -1,0 +1,17 @@
+@import '../../../style.scss';
+.todo {
+  padding: 20px;
+  padding-right: 40px;
+  
+  &-wrap {
+    background-color: $color-grey;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  &-item {
+    &-checked {
+      text-decoration: line-through;
+    }
+  }
+}

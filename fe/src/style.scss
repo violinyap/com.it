@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+$color-black: #18181A;
+$color-grey: #242426;
+$color-neon: #B0FF4D;
+$color-white: #FFFFFF;
+$color-tosca: rgba(127, 183, 190, 0.6);
+$color-darkblue: #193341;
+$color-red: #FF6B6B;
+$color-darkgreen: #236847;
+$color-yellow: #FFB26B;
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: $color-black;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.subhead {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.lpar {
+  /* Paragraph/L-Bold */
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.logoText {
+  font-family: 'Didact Gothic', sans-serif;
+  letter-spacing: -10;
+}
+
+.neon {
+  color: $color-neon;
+}
+
+.red {
+  color: $color-red;
+}
+
+.button-none {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+}
+
+.centerpage {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

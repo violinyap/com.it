@@ -1,0 +1,26 @@
+@import '../../../../style.scss';
+
+.JournalCard {
+  width: 100%;
+  padding: 30px;
+  border: 2px solid $color-tosca;
+  border-radius: 8px;
+  &:hover {
+    scale: 1.05;
+  }
+
+  &__box {
+    height: 180px;
+    background-color: $color-tosca;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    &-img {
+      // height: 20%;
+      position: absolute;
+      top: -20px;
+    }
+  }
+}

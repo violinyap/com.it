@@ -1,0 +1,77 @@
+@import '../../style.scss';
+.ProfilePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px;
+    &__ava {
+      animation: float 4s ease-in-out infinite;
+    }
+  }
+  .profile-tag {
+    border: 1px solid $color-tosca;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: max-content;
+    height: fit-content;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4;
+    &-neon {
+      border: 1px solid $color-neon;
+    }
+    &-yellow {
+      border: 1px solid $color-yellow;
+    }
+    &-button {
+      &:hover {
+        background-color: $color-tosca;
+      }
+    }
+  }
+  .profile-content-box {
+    border: 1px solid $color-tosca;
+    border-radius: 8px;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .profile-banner {
+    width: 100%;
+    border-radius: 20px;
+    &-text {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      font-family: 'Space Grotesk', sans-serif;
+      color: $color-darkgreen;
+      transform: rotate(20deg);
+    }
+  }
+
+  .profile-ava {
+    width: 100px;
+  }
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	40% {
+		transform: translatey(-8px);
+	}
+	80% {
+		transform: translatey(8px);
+	}
+  100% {
+		transform: translatey(0px);
+	}
+}

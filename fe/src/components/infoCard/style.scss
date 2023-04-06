@@ -1,0 +1,31 @@
+@import '../../style.scss';
+
+.info {
+  border: 1px solid $color-tosca;
+  border-radius: 10px;
+  flex:1;
+  overflow: hidden;
+  padding: 14px;
+  &:hover {
+    background-color: $color-grey;
+  }
+
+  &-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &-value {
+    color: $color-neon;
+  }
+
+  &-subtext {
+    font-size: 14px;
+    background: #4F33F7;
+    border-radius: 20px;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    width: max-content;
+  }
+}

@@ -1,0 +1,47 @@
+@import '../../../style.scss';
+
+.Steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .Persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+    &__ava {
+      width: 180px;
+      height: 180px;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid $color-tosca;
+      border-radius: 12px;
+
+      &:hover {
+        background-color: $color-tosca;
+      }
+      &__img {
+        object-fit: contain;
+      }
+
+      &__selected {
+        background-color: $color-neon !important;
+      }
+    }
+
+  }
+  &__Multiopt {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
